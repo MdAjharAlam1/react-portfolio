@@ -77,7 +77,11 @@
     }
     .footer-top-right{
         gap: 10px;
-        width: 100%;
+        width: 65%;
+        display:flex;
+        justify-content:center;
+        align-items:flex-start;
+        margin-right: 20px;
     }
     
     .footer-email-input {
@@ -85,7 +89,7 @@
         display: flex;
         align-items: center;
         gap: 5px;
-        padding: 6px 8px;
+        padding: 6px 10px;
         border-radius: 50px;
         background: #32323B;
         transition: 0.4s;
@@ -93,28 +97,29 @@
     .footer-email-input input { 
         outline: none;
         border: none;
+        /* width: 100%; */
         background: transparent;
         color: #a0a0a0;
         font-family: outfit;
-        font-size: 14px;
+        font-size: 16px;
     }
     .footer-top-left{
         width: 100%;
     }
     .footer .footer-subscribe{
-        padding: 10px 16px;
+        padding: 12px 16px;
         font-size: 13px;
     }
     .footer-bottom{
         display: flex;
         flex-direction: column-reverse;
-        gap: 20px;
+        gap:20px;
         font-size: 14px;
         /* margin-bottom: 0px; */
     }
     .footer-bottom-right{
         margin-bottom: 0px;
-        gap: 15px;
+        gap: 12px;
     }
     .footer-bottom-left{
         margin-bottom: 50px;
